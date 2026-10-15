@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+    float y = 3.14;
+    if (x >= 5) {
+        x++;
+    } else {
+        x--;
+    }
+    printf("Hello");
+    return 0;
+}

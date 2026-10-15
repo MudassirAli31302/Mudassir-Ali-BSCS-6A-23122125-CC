@@ -1,0 +1,57 @@
+TOKEN TYPE     LEXEME
+-------------------------------
+PREPROCESSOR   #include <stdio.h>
+KEYWORD        int
+IDENTIFIER     main
+SYMBOL         (
+SYMBOL         )
+SYMBOL         {
+KEYWORD        int
+IDENTIFIER     x
+OPERATOR       =
+INTEGER        10
+SYMBOL         ;
+KEYWORD        float
+IDENTIFIER     y
+OPERATOR       =
+FLOAT          3.14
+SYMBOL         ;
+KEYWORD        if
+SYMBOL         (
+IDENTIFIER     x
+OPERATOR       >=
+INTEGER        5
+SYMBOL         )
+SYMBOL         {
+IDENTIFIER     x
+OPERATOR       ++
+SYMBOL         ;
+SYMBOL         }
+KEYWORD        else
+SYMBOL         {
+IDENTIFIER     x
+OPERATOR       --
+SYMBOL         ;
+SYMBOL         }
+IDENTIFIER     printf
+SYMBOL         (
+STRING         "Hello"
+SYMBOL         )
+SYMBOL         ;
+KEYWORD        return
+INTEGER        0
+SYMBOL         ;
+SYMBOL         }
+
+----------- SUMMARY -----------
+Keywords      : 6
+Identifiers   : 7
+Integers      : 3
+Floats        : 1
+Strings       : 1
+Characters    : 0
+Operators     : 5
+Symbols       : 18
+Preprocessor  : 1
+Errors        : 0
+Total lines   : 13
